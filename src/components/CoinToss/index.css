@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+}
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  width: 60%;
+  height: 100vh;
+  margin: 0px auto;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toss-container {
+  background-color: white;
+  width: 60%;
+  height: 500px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-img {
+  height: 150px;
+}
+.head-one {
+  color: #a35200;
+}
+.head-two {
+  color: #334155;
+  font-size: 20px;
+}
+.toss-btn {
+  color: #a35200;
+  background-color: #f9d423;
+  border-width: 0px;
+  padding: 5px 8px;
+  font-size: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.toss-results {
+  width: 80%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  color: #334155;
+}
